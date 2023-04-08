@@ -1,0 +1,213 @@
+:root {
+--accent-color: #404BBF;
+--primary-color-heading: #2E2F42;
+--secondary-color-par: #434455;
+--primary-font: 'Roboto', sans-serif;
+--secondary-font: 'Raleway'; sans-serif;
+}
+
+
+/* ============= Inherited features ============ */
+
+body {
+    font-family: var(--primary-font);
+    
+}
+/* ============= Default styles reset ============ */
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.contact-info-list {
+  font-style: normal;
+
+}
+/* ================ Components ================== */
+
+.header-three {
+
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--primary-color-heading);
+
+}
+
+.header-three-align {
+text-align: center;
+}
+
+.description {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--secondary-color-par);
+}
+
+.description-align {
+  text-align: center;
+}
+
+.description-footer {
+  color: #F4F4FD;
+}
+
+.logo-part-footer {
+  color: #F4F4FD;
+}
+
+.logo-link {
+  width: 71px;
+  height: 21px;
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-color-heading);
+  
+  }
+  
+  .logo-part {
+    width: 44px;
+    height: 21px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+  }
+  
+
+/* =============== HEADER =============== */
+
+.menu-link {
+width: 66px;
+height: 24px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--primary-color-heading);
+}
+
+.menu-link:hover,
+.manu-link:focus {
+color: var(--accent-color);
+}
+
+.phone-number {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--secondary-color-par);
+
+}
+
+.mail {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--secondary-color-par);
+}
+
+.phone-number:hover,
+.phone-number:focus {
+  color: var(--accent-color);
+}
+
+.mail:hover,
+.mail:focus {
+  color: var(--accent-color);
+}
+
+/* ============ HERO ============== */
+
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.hero-btn {
+background-color: #4D5AE5;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+background-color: var(--accent-color);
+color: white;
+}
+
+/* ================= BENEFITS ================= */
+
+/* ==================== Our Works ==================== */
+.header-two {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--primary-color-heading);
+}
+
+/* ================ Our Employees ================ */
+.section-employees {
+  background-color: #F4F4FD;
+}
+
+/* ************** PORTFOLIO PAGE ************** */
+
+.portfolio-button {
+background-color: #F4F4FD;;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--accent-color);
+  color: #FFFFFF;
+}
+
+.portfolio-heading-two {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--primary-color-heading);
+}
+
+
+
+
+
+
