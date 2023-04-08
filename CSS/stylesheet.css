@@ -1,3 +1,4 @@
+
 :root {
 --accent-color: #404BBF;
 --primary-color-heading: #2E2F42;
@@ -227,6 +228,10 @@ cursor: pointer;
 .portfolio-button:focus {
   background-color: var(--accent-color);
   color: var(--background-color);
+}
+
+.portfolio-button:active {
+  color: var(--accent-color);
 }
 
 .portfolio-heading-two {
