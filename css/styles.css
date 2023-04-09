@@ -120,7 +120,7 @@
   color: var(--accent-color);
   }
   
-  .phone-number, .mail {
+  .contact-info {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -129,16 +129,11 @@
   
   }
   
-  .phone-number:hover,
-  .phone-number:focus {
+  .contact-info:hover,
+  .contact-info:focus {
     color: var(--accent-color);
   }
-  
-  .mail:hover,
-  .mail:focus {
-    color: var(--accent-color);
-  }
-  
+    
   /* ============ HERO ============== */
   
   .hero {
