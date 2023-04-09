@@ -120,21 +120,13 @@
   color: var(--accent-color);
   }
   
-  .phone-number {
+  .phone-number .mail {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-color-par);
   
-  }
-  
-  .mail {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--secondary-color-par);
   }
   
   .phone-number:hover,
@@ -199,7 +191,7 @@
     background-color: #F4F4FD;
   }
   
-  .section-employee-list {
+  .section-employee-list-item {
     background-color: #FFFFFF;
     
   }
