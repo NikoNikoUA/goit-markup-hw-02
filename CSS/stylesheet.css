@@ -116,7 +116,7 @@ color: var(--primary-color-heading);
 }
 
 .menu-link:hover,
-.manu-link:focus {
+.menu-link:focus {
 color: var(--accent-color);
 }
 
