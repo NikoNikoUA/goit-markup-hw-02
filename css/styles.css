@@ -37,6 +37,41 @@
   .address {
     font-style: normal 
   } 
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  ol,
+  ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+
+  img {
+    display: block;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  .container {
+    width: 1128px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px red solid;
+  }
   
   /* ================ Components ================== */
   
@@ -80,9 +115,9 @@
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-     letter-spacing: 0.03em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-      color: var(--logo-color);
+    color: var(--logo-color);
     
     
     }
@@ -103,8 +138,30 @@
   
   /* =============== HEADER =============== */
   
-  
-  
+  .page-header-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .page-navigation {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+     }
+
+     .logo-link {
+      margin-right: 76px;
+     }
+
+     .menu-item:not(:last-child) {
+      margin-right: 40px;
+     }
+
+ 
   .menu-link {
   width: 66px;
   height: 24px;
@@ -126,6 +183,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-color-par);
+ 
   
   }
   
@@ -159,7 +217,7 @@
   align-items: center;
   letter-spacing: 0.04em;
   color:#ffffff;
-  cursor: pointer;
+ 
   }
   
   .hero-btn:hover,
@@ -209,7 +267,7 @@
   text-align: center;
   letter-spacing: 0.04em;
   color: #4D5AE5;
-  cursor: pointer;
+
   }
   
   .portfolio-button:hover,
